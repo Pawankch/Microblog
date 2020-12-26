@@ -1,0 +1,20 @@
+{
+  "name": "micro-blog",
+  "private": true,
+  "description": "A bare bones micro blog with no frills nor nonsense",
+  "repository": {
+    "type": "git"
+  },
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "marked": "^0.3.6",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "roast.it": "1.0.5"
+  }
+}
